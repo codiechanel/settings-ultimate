@@ -2,6 +2,7 @@
   <component name="ExportableFileTemplateSettings">
     <default_templates>
       <template name="Home.tsx" reformat="true" live-template-enabled="true" />
+      <template name="Home 2.tsx" reformat="true" live-template-enabled="true" />
     </default_templates>
   </component>
 </application>
