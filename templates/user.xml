@@ -1,11 +1,5 @@
 <templateSet group="user">
-  <template name="nav" value="let nav = useNavigate()" description="useNavigate" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-      <option name="TS_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="onclick" value="onClick={() =&gt; { &#10;$END$ &#10;} }" description="OnClick" toReformat="false" toShortenFQNames="true">
+  <template name="onc" value="onClick={() =&gt; {&#10;    console.log('nice');&#10;    $END$&#10;  }}" description="onClick" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JSX_HTML" value="false" />
@@ -18,14 +12,6 @@
       <option name="TS_STATEMENT" value="false" />
       <option name="TS_TOP_LEVEL_STATEMENT" value="false" />
       <option name="TypeScript" value="true" />
-    </context>
-  </template>
-  <template name="re" value="import React from &quot;react&quot;;&#10;&#10;function Demo() {&#10;    return &lt;div&gt;hello$END$&lt;/div&gt;&#10;}&#10;&#10;export default Demo" description="create functional component" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
-      <option name="TS_STATEMENT" value="true" />
-      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
