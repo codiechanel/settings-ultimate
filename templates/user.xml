@@ -14,4 +14,12 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="rea" value="import React from &quot;react&quot;;&#10;import tw from &quot;twin.macro&quot;;&#10;&#10;function NeuIconButton() {&#10;    return &lt;div&gt;$END$ &lt;/div&gt;&#10;}&#10;&#10;export default NeuIconButton" description="create new React function component" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
