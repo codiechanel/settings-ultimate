@@ -31,8 +31,6 @@
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="ToggleDistractionFreeMode">
-    <keyboard-shortcut first-keystroke="alt f3" />
-    <keyboard-shortcut first-keystroke="ctrl meta z" />
     <keyboard-shortcut first-keystroke="ctrl meta enter" />
   </action>
   <action id="XDebugger.EditWatch" />
