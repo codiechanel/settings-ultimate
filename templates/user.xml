@@ -38,7 +38,7 @@
       <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="st" value="const Input = styled.input.attrs((props: any) =&gt; ({&#10;    type: props.inputType,&#10;}))`&#10; &#10;`" description="create styled attrs" toReformat="true" toShortenFQNames="true">
+  <template name="st" value="const Input = styled.div.attrs((props: any) =&gt; ({&#10;    className: &quot;$END$&quot;,&#10;}))`&#10; &#10;`" description="create styled attrs" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
