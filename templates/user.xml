@@ -38,4 +38,20 @@
       <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="st" value="const Input = styled.input.attrs((props: any) =&gt; ({&#10;    type: props.inputType,&#10;}))`&#10; &#10;`" description="create styled attrs" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ims" value="import styled from 'styled-components'" description="import styled components" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
