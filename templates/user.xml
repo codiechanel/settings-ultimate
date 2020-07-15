@@ -14,7 +14,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="re" value="import React from &quot;react&quot;;&#10;import  &quot;twin.macro&quot;;&#10;&#10;function NeuIconButton() {&#10;    return &lt;div&gt;$END$ &lt;/div&gt;&#10;}&#10;&#10;export default NeuIconButton" description="create new React function component" toReformat="true" toShortenFQNames="true">
+  <template name="re" value="import React from &quot;react&quot;;&#10;&#10;function NeuIconButton() {&#10;    return &lt;div&gt;$END$ &lt;/div&gt;&#10;}&#10;&#10;export default NeuIconButton" description="create new React function component" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
@@ -47,6 +47,14 @@
     </context>
   </template>
   <template name="ims" value="import styled from 'styled-components'" description="import styled components" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sto" value="class GlobalStore {&#10;&#10;    $END$&#10;    &#10;}&#10;const globalStore = new GlobalStore()&#10;export default globalStore" description="create global store" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
