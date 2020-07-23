@@ -1,5 +1,5 @@
 <templateSet group="Zen HTML">
-  <template name="b" value="&lt;b&gt;$END$&lt;/b&gt;" description="&lt;b&gt;...&lt;/b&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="p" value="&lt;p&gt;$END$&lt;/p&gt;" description="&lt;p&gt;...&lt;/p&gt;" toReformat="false" toShortenFQNames="true">
     <context />
   </template>
 </templateSet>
