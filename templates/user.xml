@@ -77,4 +77,18 @@
       <option name="TS_EXPRESSION" value="true" />
     </context>
   </template>
+  <template name="ref" value="let ref = useRef(null)" description="create a ref" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+      <option name="VUE_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="useE" value="useEffect(() =&gt; {&#10;      &#10;  })" description="use effect" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+      <option name="VUE_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
