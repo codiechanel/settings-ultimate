@@ -2,4 +2,7 @@
   <template name="p" value="&lt;p&gt;$END$&lt;/p&gt;" description="&lt;p&gt;...&lt;/p&gt;" toReformat="false" toShortenFQNames="true">
     <context />
   </template>
+  <template name="out" value="&lt;output&gt;$END$&lt;/output&gt;" description="&lt;output&gt;...&lt;/output&gt;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
